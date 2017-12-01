@@ -8,7 +8,7 @@ const defaultStyle = {
   opacity: 0,
   padding: 20,
   display: 'inline-block',
-  backgroundColor: '#8787d8'
+  backgroundColor: '#fafafa'
 }
 
 const transitionStyles = {
@@ -23,7 +23,7 @@ const Fade = ({ in: inProp }) => (
         ...defaultStyle,
         ...transitionStyles[state]
       }}>
-        I'm A fade Transition!
+        My name is Pav...
       </div>
     )}
   </Transition>
