@@ -1,7 +1,7 @@
 import React from 'react'
 import { Transition } from 'react-transition-group'
 
-const duration = 300;
+const duration = 600;
 
 const defaultStyle = {
   transition: `opacity ${duration}ms ease-in-out`,
@@ -23,7 +23,7 @@ const Fade = ({ in: inProp }) => (
         ...defaultStyle,
         ...transitionStyles[state]
       }}>
-        My name is Pav...
+        ...
       </div>
     )}
   </Transition>
